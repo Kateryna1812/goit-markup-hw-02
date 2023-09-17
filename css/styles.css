@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto',sans-serif, 'Raleway', sans-serif;
     background-color: #FFFFFF;
     color: #434455
 }
@@ -65,11 +65,11 @@ color: #404bbf;
 
 .header-address-link {
     color: var(--SLATE, #434455);
-    font-style: normal
-    font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5; 
-        letter-spacing: 0.02em;
+    font-style: normal;
+font-size: 16px;
+    font-weight: 400;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
 }
 
 .header-address-link:hover {
@@ -80,6 +80,9 @@ color: #404bbf;
     color: #404BBF
 }
 
+.hero {
+    background-color:#2e2f42
+}
 
 .hero-title {
     color: var(--WHITE, #FFFFFF);
@@ -103,11 +106,11 @@ color: #404bbf;
         cursor: pointer;
 }
 
-.hero-buy-btn: :hover{
+.hero-buy-btn:hover{
 background-color: #404BBF
 }
 
-.hero-buy-btn: :focus {
+.hero-buy-btn:focus {
 background-color: #404BBF
 }
 
@@ -129,7 +132,7 @@ background-color: #404BBF
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
-        letter-spacing: 0.2em;
+        letter-spacing: 0.02em;
 }
 
 .our-team {
@@ -141,7 +144,7 @@ background-color: #404BBF
         text-align: center;
         font-size: 36px;
         font-weight: 700;
-        line-height: 1.2;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
 }
@@ -162,7 +165,7 @@ background-color: #404BBF
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
-        letter-spacing: -0.02em;
+        letter-spacing: 0.02em;
 }
 
 .our-text {
@@ -206,7 +209,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 
 
 .footer-web-logo {
-    color: #4d5ae5;
+    color: #f4f4fd;
     font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -216,12 +219,19 @@ color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .footer-web-link {
-    color: #F4F4FD;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
-        letter-spacing: -3;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
+}
+.footer-text {
+    color: var(--CLOUD, #F4F4FD);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 
 .footer {
