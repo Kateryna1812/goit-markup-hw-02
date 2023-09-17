@@ -63,27 +63,28 @@ color: #404bbf;
 }
 
 .header-address {
-        font-style: normal
+ font-style: normal;
 }
 
 .header-address-link {
     color: var(--SLATE, #434455);
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 .header-address-link:hover {
-    color: #404BBF
+    color: #404BBF;
 }
 
 .header-address-link:focus {
-    color: #404BBF
+    color: #404BBF;
 }
 
 .hero {
-    background-color:#2e2f42
+    background-color:#2e2f42;
 }
 
 .hero-title {
@@ -109,11 +110,11 @@ color: #404bbf;
 }
 
 .hero-buy-btn:hover{
-background-color: #404BBF
+background-color: #404BBF;
 }
 
 .hero-buy-btn:focus {
-background-color: #404BBF
+background-color: #404BBF;
 }
 
 .info {
@@ -158,7 +159,7 @@ background-color: #404BBF
      no-repeat;
 }
 .our-item {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 
 .our-subtitle {
